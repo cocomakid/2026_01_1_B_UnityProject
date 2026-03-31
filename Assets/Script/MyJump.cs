@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class MyJump : MonoBehaviour
 {
-    public Rigidbody rigidbody;                                 // 강체 (형태와 크기가 고정된 고체) 물리 현상이 동작 하게 해주는 컴포넌트
+    public new Rigidbody rigidbody;                                 // 강체 (형태와 크기가 고정된 고체) 물리 현상이 동작 하게 해주는 컴포넌트
     public float power = 20f;                                   // 변수 힘을 선언 함
     public float timer = 0;
     public Text TextUI;
