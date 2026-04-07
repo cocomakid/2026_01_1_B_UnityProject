@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class MyCharacter : MonoBehaviour
 {
     public int Health = 100;                // 체력을 선언한다. (변수)
     public float Timer = 1.0f;              // 타이머를 설정
